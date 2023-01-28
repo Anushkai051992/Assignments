@@ -1,0 +1,6 @@
+numbers = [1, 2, 5, 3, 8, 7]
+total = 0
+for item in range (0, len(numbers)):
+     total = total + numbers [item]
+     
+print("sum total = ", total)
